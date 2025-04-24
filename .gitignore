@@ -24,8 +24,7 @@ override.tf.json
 terraform.rc
 
 # Ignore lock files
-<<<<<<< HEAD
 .terraform.lock.hcl
-=======
-.terraform.lock.hcl
->>>>>>> 579daf242218b25b2bc294ce42eb5e353d8eb222
+
+# Ignore provider binary
+terraform-provider-aws*
